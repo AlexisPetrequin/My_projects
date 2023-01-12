@@ -1,17 +1,8 @@
-# **Dashboard Epitech**
+# Dashboard
 
-## **Authors**
+Third year project, a web dashboard with several options
 
-- valentin.elter@epitech.eu
-- alexis.petrequin@epitech.eu
-
-## **Architecture**
-
-Our project is divided into 2 parts, the front and the back.
-
-This architecture allows us to work both on the same project without risking merge errors.
-
-### **The services**
+## Features
 
 - Weather API, giving the weather in a given city
 - Youtube API, giving informations about a given channel
@@ -21,20 +12,6 @@ This architecture allows us to work both on the same project without risking mer
     - finding a given player and it's most recently played games as well as how much time they played them
     - finding a given player's friend list
 
-## **Production deployement**
-
-Our project uses `Gradle`.
-
-### **Gradle**
-
-Gradle is used for **local environment**.
-
-To build the project: `$> gradle build`
-
-To run the project: `$> gradle bootrun`
-
-## **Frontend**
-
-The frontend (main application) is available at `http://localhost:8080` on local env.
-
-A `about.json` file is available at `http://localhost:8080/about.json`.
+### 1. Build Dashboard from my repo:
+	gradle bootrun
+	go to http://localhost:8080/
