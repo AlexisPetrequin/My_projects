@@ -1,4 +1,0 @@
-./matchstick -a -b
-
-a = number of columns
-b = number of matches you can remove each turn
